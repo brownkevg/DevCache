@@ -6,17 +6,23 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { MatButtonModule, MatCardModule, MatToolbarModule, MatIconModule, MatMenuModule, MatInputModule } from '@angular/material';
+import { MatButtonModule, MatCardModule, MatToolbarModule, MatIconModule, MatMenuModule, MatInputModule, MatExpansionModule } from '@angular/material';
 
 import { NavbarComponent } from './navbar/navbar.component';
+import { HeaderComponent } from './header/header/header.component';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
+import { PostListComponent } from './posts/post-list/post-list.component';
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    PostCreateComponent
+    PostCreateComponent,
+    HeaderComponent,
+    PostListComponent
   ],
   imports: [
     BrowserModule,
@@ -28,6 +34,7 @@ import { PostCreateComponent } from './posts/post-create/post-create.component';
     MatIconModule,
     MatMenuModule,
     MatInputModule,
+    MatExpansionModule,
     FormsModule
   ],
   providers: [],
