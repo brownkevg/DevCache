@@ -7,7 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { MatButtonModule, MatCardModule, MatToolbarModule, MatIconModule, MatMenuModule, MatInputModule, MatExpansionModule } from '@angular/material';
+import { MatButtonModule, MatCardModule, MatToolbarModule, MatIconModule, MatMenuModule, MatInputModule, MatExpansionModule, MatProgressSpinnerModule } from '@angular/material';
 
 import { HeaderComponent } from './header/header/header.component';
 import { PostCreateComponent } from './posts/post-create/post-create.component';
@@ -32,6 +32,7 @@ import { PostListComponent } from './posts/post-list/post-list.component';
     MatMenuModule,
     MatInputModule,
     MatExpansionModule,
+    MatProgressSpinnerModule,
     FormsModule,
     HttpClientModule
   ],
