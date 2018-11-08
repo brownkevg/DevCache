@@ -23,6 +23,8 @@ app.use((req, res, next) => {
     next();
 });
 
+
+
 app.use("/api/posts", postsRoutes);
 
 module.exports = app;
