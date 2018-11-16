@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { LoginComponent } from './auth/login/login.component';
+import { SignupComponent } from './auth/signup/signup.component';
 import { AppComponent } from './app.component';
 
 import { MatButtonModule, MatCardModule, MatToolbarModule, MatIconModule, MatMenuModule, MatInputModule, MatExpansionModule, MatProgressSpinnerModule, MatPaginatorModule } from '@angular/material';
@@ -15,14 +16,14 @@ import { PostCreateComponent } from './posts/post-create/post-create.component';
 import { PostListComponent } from './posts/post-list/post-list.component';
 
 
-
 @NgModule({
   declarations: [
     AppComponent,
     PostCreateComponent,
     HeaderComponent,
     PostListComponent,
-    LoginComponent
+    LoginComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
